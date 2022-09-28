@@ -8,7 +8,7 @@ namespace DesafioPOO.Models
 
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine("Instalando em Nokia...");
+            Console.WriteLine($"Instalando {nomeApp} em Nokia...");
         }
     }
 }
